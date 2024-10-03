@@ -1,0 +1,64 @@
+.carousel-banner {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-shadow: none;
+  }
+  
+  .carousel-caption h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    color: #ffffff;
+  }
+  
+  .carousel-caption p {
+    font-family: 'Georgia', serif;
+    font-size: 1.25rem;
+    color: #dcdcdc;
+  }
+.first-section,.second-section{  
+    padding: 25px;
+    font-size: 20px;
+}
+.first-section{
+    background-color:orange;
+}
+.second-section{
+    background-color: orangered;
+    
+}
+.services{
+    /* box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12); */
+    border-radius: 2px;
+    padding: 25px 15px;
+    margin-bottom: 30px;
+    background-color: #FFF;
+    text-align: center;
+}
+.puls-icon{
+    color: orangered;
+    font-size: 55px;
+   text-align: center;
+}
+.our-treatments{
+    text-align: center;
+}
+.we-help{
+    text-align: center;
+}
+.medi-icons{
+    background-color: rgb(27, 26, 26);
+border-radius: 50%;
+border: 1px solid grey;
+padding: 25px;
+color: orange;
+}
+.banner img{
+    height: 800px;
+    object-fit: cover;
+}

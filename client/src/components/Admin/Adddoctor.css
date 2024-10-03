@@ -1,0 +1,23 @@
+.cascading-right {
+  margin-right: -50px;
+}
+.add-doctor-btn{
+  background-color: coral !important;
+  border-radius: 25px !important;
+}
+@media (max-width: 900px) {
+  .cascading-right {
+      margin-right: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .image-col {
+      display: none;
+  }
+
+  .form-col {
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+}

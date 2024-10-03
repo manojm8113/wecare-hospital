@@ -1,0 +1,48 @@
+.appointments {
+    display: flex;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 35px;
+  }
+  
+  .appointments .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .appointments .card-header {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .appointments .table thead {
+    background-color: #343a40;
+    color: #ffffff;
+  }
+  
+  .appointments .table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .appointments .spinner-border {
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .appointments .card-header {
+      font-size: 1.25rem;
+    }
+  
+    .appointments .table thead {
+      font-size: 0.875rem;
+    }
+  
+    .appointments .table tbody td {
+      font-size: 0.875rem;
+    }
+  }
+  

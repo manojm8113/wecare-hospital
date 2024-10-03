@@ -1,0 +1,53 @@
+.gradient-custom-2 {
+  background: #00695c !important;
+  color: white !important;
+}
+.logos-icon svg {
+  color: #29f7a5;
+  height: 4em;
+  width: 4em;
+  animation: mover 1s infinite alternate;
+}
+.gradient-custom-3 {
+  background: #00796b;
+  color: white;
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.doctor-image {
+  width: 100%;
+  height: auto;
+  border-radius: 0.3rem;
+}
+.admins p{
+  text-align: center;
+  font-size: large;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: rgb(112, 205, 120);
+  color: white;
+  border-radius: 25px;
+}
+.admins span{
+  color: white;
+}
+.admins span:hover{
+  color: #00796b;
+}
+@media (min-width: 768px) {
+  .gradient-form {
+      height: 100vh !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+      border-top-left-radius: .3rem;
+      border-bottom-left-radius: .3rem;
+  }
+}

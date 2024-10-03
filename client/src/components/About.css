@@ -1,0 +1,83 @@
+.section-blog{
+
+    text-align: center;
+}
+.section-blog p{
+    font-size: 15px;
+    color: #888;
+    margin-top: 15px;
+   
+}
+.who-icon{
+    color: rgb(247, 93, 37)!important;
+}
+/* About.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text-primary {
+    color: #007bff !important;
+  }
+  
+  .who-icon svg {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .puls-icon svg {
+    width: 35px;
+    height: 35px;
+    color: #ff6b6b;
+  }
+  
+  .section-blog {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .section-blog h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .section-blog p {
+    color: #6c757d;
+  }
+  
+  a.link-dark {
+    color: #343a40;
+  }
+  
+  a.link-dark:hover {
+    color: #007bff;
+  }
+  
+  a.btn {
+    margin-top: 1rem;
+  }
+  
+  .img-wrapper {
+    overflow: hidden;
+    border-radius: 0.25rem;
+  }
+  
+  .img-wrapper img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .img-wrapper:hover img {
+    transform: scale(1.05);
+  }
+  
+  .badges {
+    font-size: 0.75rem !important;
+    padding: 0.5rem 0.75rem !important;
+  }
+  

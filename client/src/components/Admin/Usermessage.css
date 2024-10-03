@@ -1,0 +1,25 @@
+.usermessage-container {
+    display: flex;
+  }
+  .users {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f9fa;
+    margin-top: 35px;
+  }
+  .loading-container, .error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .user-table {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .table-dark th {
+    background-color: #343a40;
+    color: #fff;
+  }
+  

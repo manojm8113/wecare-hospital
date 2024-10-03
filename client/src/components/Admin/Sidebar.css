@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.app-container {
+  display: flex;
+}
+
+.icon {
+  color: white;
+}
+
+.content-container {
+  flex: 1;
+  padding: 20px;
+  margin-left: 200px;
+  transition: margin-left 0.5s;
+}
+
+.sidebar {
+  background: #000;
+  color: #fff;
+  height: 100vh;
+  width: 200px;
+  position: fixed;
+  overflow-y: auto;
+  transition: all 0.3s ease;
+}
+
+.sidebar.collapsed {
+  width: 60px;
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+.logo {
+  font-size: 24px;
+  display: block;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+
+.link:hover {
+  background: rgb(250, 213, 135);
+  color: #000;
+  transition: all 0.5s;
+}
+
+.active {
+  background: rgb(250, 192, 135);
+  color: #000;
+}
+
+.icon, .link_text {
+  font-size: 20px;
+}
+
+.link_text {
+  display: inline;
+}
+
+.search_section {
+  padding: 10px 15px;
+}
+
+.search_input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: width 0.5s;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
+  height: 60px;
+  background: #000;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-left .icon {
+  margin-right: 10px;
+}
+
+.header-right .icon {
+  margin-left: 15px;
+}
+.bell-icon-container {
+  position: relative;
+  display: inline-block;
+}
+
+.badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+  font-size: 12px;
+}
+@media screen and (max-width: 768px) {
+  .content-container {
+    margin-left: 60px;
+  }
+
+  .sidebar {
+    width: 60px;
+  }
+
+  .link_text {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header-left {
+    display: none;
+  }
+}

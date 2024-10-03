@@ -1,0 +1,156 @@
+.signups {
+  background-image: url('https://images.pexels.com/photos/3470032/pexels-photo-3470032.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+}
+
+.signup-banner {
+  background-image: url('./assets/fun-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register {
+  background: linear-gradient(to right, rgba(255, 173, 20, 0.8), rgba(245, 162, 53, 0.8));
+  margin-top: 1%;
+  padding: 3%;
+  border-radius: 10px;
+}
+
+.register-left {
+  text-align: center;
+  color: #fff;
+  margin-top: 4%;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.register-left input {
+  border: none;
+  border-radius: 1.5rem;
+  padding: 2%;
+  width: 60%;
+  background: rgba(248, 176, 89, 0.8);
+  font-weight: bold;
+  color: rgb(13, 13, 13);
+  margin-top: 30%;
+  margin-bottom: 3%;
+  cursor: pointer;
+}
+
+.register-right {
+  background: rgba(248, 249, 250, 0.8);
+  border-top-left-radius: 10% 50%;
+  border-bottom-left-radius: 10% 50%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.register-right h2 {
+  font-weight: 500;
+  text-decoration: underline;
+  padding-top: 1%;
+  text-align: center;
+}
+
+.register-left svg {
+  font-size: 45px;
+  margin-top: 15%;
+  margin-bottom: 5%;
+  width: 25%;
+  animation: mover 1s infinite alternate;
+  color: #ff6219;
+}
+
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+
+.register-left p {
+  font-weight: lighter;
+  padding: 12%;
+  margin-top: -9%;
+}
+
+.register .register-form {
+  padding: 10%;
+}
+
+.btnRegister {
+  float: right;
+  margin-top: 10%;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 2%;
+  background: var(--first-color);
+  color: #fff;
+  font-weight: 600;
+  width: 50%;
+  cursor: pointer;
+}
+
+.register .nav-tabs {
+  margin-top: 3%;
+  border: none;
+  background: rgba(0, 98, 204, 0.8);
+  border-radius: 1.5rem;
+  width: 28%;
+  float: right;
+}
+
+.register .nav-tabs .nav-link {
+  padding: 2%;
+  height: 34px;
+  font-weight: 600;
+  color: #fff;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+
+.register .nav-tabs .nav-link:hover {
+  border: none;
+}
+
+.register .nav-tabs .nav-link.active {
+  width: 100px;
+  color: #0062cc;
+  border: 2px solid #0062cc;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.register-heading {
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: -15%;
+  color: #495057;
+}
+
+@media (max-width: 768px) {
+  .register-left,
+  .register-right {
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+
+  .register-left input {
+    width: 80%;
+    margin-top: 20%;
+  }
+
+  .signup-banner {
+    height: 50vh;
+  }
+}
+
+.register-right label {
+  color: black;
+  width: 100%;
+}

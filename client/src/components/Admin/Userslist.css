@@ -1,0 +1,54 @@
+.userslist {
+  padding: 20px;
+  
+}
+
+.userslist .card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.userslist .card-header {
+  font-size: 1.5rem;
+}
+
+.userslist .table thead {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+.userslist .table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.userslist .spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .content-container {
+    padding: 10px;
+  }
+
+  .userslist .card-header {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .userslist {
+    padding: 10px;
+  }
+
+  .userslist .card {
+    margin: 0;
+  }
+
+  .userslist .card-header {
+    font-size: 1rem;
+  }
+
+  .userslist .table {
+    font-size: 0.875rem;
+  }
+}

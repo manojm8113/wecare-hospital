@@ -1,0 +1,40 @@
+.update-profile{
+    border: 1px solid black;
+    padding: 15px;
+}
+.profile-data{
+    border: 1px solid black;
+    margin-bottom: 25px;
+}
+#back-home{
+    border: 1px solid black;
+    padding: 15px;
+}
+ .form-control:focus {
+    box-shadow: none;
+    border-color: #101010;
+  }  
+  .profile-button {
+    background: #1f1e1f;
+    box-shadow: none;
+    border: none;
+  }
+  .profile-button:hover {
+    background: #121212;
+  }
+  
+  .profile-button:focus {
+    background: #131213;
+    box-shadow: none;
+  }
+  
+  .profile-button:active {
+    background: #4e4e4e;
+    box-shadow: none;
+  }
+  
+  .back:hover {
+    color: #545353;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,112 @@
+
+.section__container {
+  background-image: url('./assets/header.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+  color: #ffffff;
+  height: 800px;
+}
+
+.doctorslist {
+  background-color: rgb(255, 166, 0);
+  border: 1px solid rgb(230, 222, 10);
+}
+
+.doctor-carousel-item {
+  background: rgb(255, 255, 255);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 25px;
+  width: 100%;
+  max-width: 850px;
+  border-radius: 10px;
+  text-shadow: none;
+  text-align: center;
+}
+
+.carousel-caption h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+.appointment-sec {
+  text-align: center;
+}
+
+.header__content {
+  max-width: 50%;
+}
+
+.header__container h1 {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.header__container p {
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+}
+
+.mark {
+  color: #ff8a1d;
+}
+.book-head {
+  color: #ff8a1d !important;
+}
+
+.booking-btn {
+  background-color: #fe9028 !important;
+  border: none;
+  border-radius: 25px !important;
+}
+
+@media (max-width: 768px) {
+  .section__container.header__container {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .header__content {
+  max-width: 85%;
+  }
+
+  .header__form {
+    max-width: 100%;
+  }
+}
+
+.doctor-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.doctor-section {
+  font-size: 1.2rem;
+  color: #007bff;
+}
+
+.doctor-description {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}

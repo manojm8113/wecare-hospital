@@ -1,0 +1,134 @@
+
+.navbars {
+  position: sticky;
+  top: 0; /* Add this line */
+  z-index: 1000; /* Ensure it stays on top */
+}
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: var(--first-color);
+  border-bottom: 1px solid #ccc;
+  z-index: 1000; /* Ensure it stays on top */
+}
+.top-nav__email {
+  font-size: 0.875rem;
+  color: white;
+  font-weight: 500;
+}
+
+.top-nav__social-icons a {
+  margin-left: 1rem;
+  color: var(--title-color);
+  font-size: 1.25rem;
+}
+
+.top-nav__social-icons a:hover {
+  color: var(--body-color);
+}
+
+/* Styles for main navigation bar */
+.headers {
+  width: 100%;
+  background-color: var(--body-color);
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: var(--header-height);
+  margin: 1rem;
+}
+
+.nav__logo {
+  color: var(--first-color);
+  transition: color 0.4s;
+  font-size: var(--h2-font-size);
+  font-family: var(--second-font);
+}
+
+.nav__toggle,
+.nav__close {
+  font-size: 1.5rem;
+  color: var(--title-color);
+  cursor: pointer;
+}
+
+.nav__cta {
+  background-color: var(--first-color);
+  color: var(--title-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 0.75rem 1.5rem;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
+}
+
+.nav__link {
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+  transition: color 0.4s;
+}
+
+.nav__link:hover {
+  color: var(--first-color);
+}
+
+.nav__close {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+}
+
+.show-menu {
+  right: 0;
+}
+
+@media screen and (max-width: 1150px) {
+  .nav__menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: hsla(0, 0%, 6%, 0.8);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    width: 80%;
+    height: 100%;
+    padding: 6rem 3rem 0;
+    transition: right 0.4s;
+  }
+
+  .show-menu {
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .nav {
+    height: calc(var(--header-height) + 1rem);
+  }
+
+  .nav__toggle,
+  .nav__close {
+    display: none;
+  }
+
+  .nav__list {
+    flex-direction: row;
+    column-gap: 2.5rem;
+  }
+}
+/* Optional: Add active link styling */
+.nav__link.active {
+  color: var(--first-color);
+  font-weight: var(--font-bold);
+}

@@ -1,0 +1,51 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #ffa500;
+}
+  .heads-icons{
+    border-radius: 40% !important;
+    background-color: #ffa500 !important;
+    padding: 15px;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  .heads-icons:hover {
+    background-color: #ffbf00 !important;
+    color: black;
+    cursor: pointer;
+  }
+.admin-login-btn{
+  background-color: #ffbf00 !important;
+  color: black !important;
+  align-items: center;
+  border-radius: 50px !important;
+}
+.admin-login-btn:hover{
+  background-color: #0c0900 !important;
+  color: rgb(240, 179, 11) !important;
+border-radius: 0px !important;
+}
+.admin-icon {
+  background-color: #ffa500 !important;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+.content-wrap {
+  flex: 1;
+}
+.admin-footer {
+  background-color: #343a40; 
+  color: white;
+  text-align: center;
+  width: 100% !important;
+}
+.foot-socialicon{
+  color: white;
+}
+.foot-socialicon:hover {
+  color: #ffac1c !important;
+}

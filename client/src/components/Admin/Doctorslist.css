@@ -1,0 +1,13 @@
+.doctor-image {
+  width: 100px;
+  height: auto;
+}
+
+.table-responsive {
+  margin-top: 20px;
+}
+
+.content-container {
+  flex: 1;
+  padding: 20px;
+}
